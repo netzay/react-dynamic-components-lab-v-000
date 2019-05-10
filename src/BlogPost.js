@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Comment from './Comment.js'
 import ColorBox from './ColorBox.js'
 
-export default class BlogPost extends Component {
+class BlogPost extends Component {
   render() {
     
     const comments = [
@@ -28,3 +28,5 @@ export default class BlogPost extends Component {
     );
   }
 }
+
+export default BlogPost
